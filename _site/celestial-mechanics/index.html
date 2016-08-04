@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<head>
+        <meta charset="UTF-8">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+    <title>Celestial mechanics &#8211; Krittika</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/img/krittika-logo.png">
+    <meta name="twitter:title" content="Celestial mechanics">
+    <meta name="twitter:description" content="Fundamentals of celestial mechanics disscussing 2 and 3 body problem and langrangian points">
+    
+    <!-- Open Graph -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Celestial mechanics">
+    <meta property="og:description" content="Fundamentals of celestial mechanics disscussing 2 and 3 body problem and langrangian points">
+    <meta property="og:url" content="/celestial-mechanics/">
+    <meta property="og:site_name" content="Krittika">
+    <meta property="og:image" content="/assets/img/krittika-logo.png">
+    
+    
+    
+    <link rel="canonical" href="/celestial-mechanics/">
+    <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Krittika Feed">
+    <!-- Handheld -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <!-- JS -->
+    <script src="/assets/js/modernizr-3.3.1.custom.min.js"></script>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/assets/img/krittika-logo.png">
+    <link rel="apple-touch-icon" sizes="160x160" href="/assets/img/krittika-logo.png">
+    <link rel="apple-touch-icon" sizes="160x160" href="/assets/img/krittika-logo.png">
+    <link rel="apple-touch-icon" sizes="160x160" href="/assets/img/krittika-logo.png">
+    <link rel="shortcut icon" type="image/png" href="/assets/img/krittika-logo.png" />
+    <link rel="shortcut icon" href="/assets/img/krittika-logo.png" />
+    <!-- Background Image -->
+    
+    
+    
+    <style type="text/css">body {background-image:url(/assets/img/background.jpg);  background-repeat: no-repeat; background-size: cover; }</style>
+    
+    <!-- Post Feature Image -->
+    
+
+</head>
+<body>
+    	<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+		<button class="dl-trigger">Open Menu</button>
+		<ul class="dl-menu">
+			<li><a href="/">Home</a></li>
+			<li>
+				<a href="/vision">Vision</a>
+				
+			</li>
+			<li>
+				<a href="#">Events</a>
+				<ul class="dl-submenu">
+					<li><a href="/lectures">Lectures</a></li>
+					<li><a href="/GDs">Group Discussions</a></li>
+					<li><a href="/trips">Trips</a></li>
+                   
+				</ul>
+			</li>
+			
+	   
+        <li>
+		     <a href="#">Gallery</a>
+		     <ul class="dl-submenu">
+		     <li><a href = "/photos">Photos</a></li>
+		     <li><a href = "/VR">VR Zone</a></li>
+		     </ul>
+		</li>
+	   
+		</ul><!-- /.dl-menu -->
+
+      
+	</nav><!-- /.dl-menuwrapper -->
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="wrapper animated fadeIn">
+            <div class="content">
+                <div class="post-title ">
+                    <h1>Celestial mechanics</h1>
+                    <h4>27 Jun 2016</h4>
+                    
+                    
+                    
+                   </div>
+                <center><h1>2 - Body Problem</h1></center>
+<p>If vectors are written without vector notation it represents the magnitude of the vector.<br /></p>
+<hr />
+<p>Time Derivatives are represented by a “.” above them <br />
+<script type="math/tex">\dot{\vec{r}}=\frac{d \vec{r}}{dt}</script><br />
+<script type="math/tex">\ddot{\vec{r}}=\frac{d^2 \vec{r}}{dt^2}</script></p>
+<hr />
+
+<p><br />Now, Equation of Motion
+<br /> <script type="math/tex">\vec{F_1}=m_1 \dot{\vec{r_1}} ̇ ……(1)</script>
+<br /> <script type="math/tex">\vec{F_1}=\frac{Gm_1 m_2} {|r_{21} |^2}\hat{r_{21}}=\frac{Gm_1 m_2} {|r_{21} |^3}\vec{r_{21}}=-\left(\frac{Gm_1 m_2}{|r_{12}|^3}\right)\vec{r_{12}}</script>
+<br /> Putting this value in (1) gives<br />
+<script type="math/tex">\ddot{\vec{r_1}}=-\left(\frac{Gm_2}{r_{12}^3} \right)\vec{r_{12}}……(2)</script>
+<br /> Similarly<br />
+<script type="math/tex">\ddot{\vec{r_2}}=-\left(\frac{Gm_1}{r_{21}^3} \right)\vec{r_{21}}……(3)</script>
+<br /> From (2) and (3)<br />
+<script type="math/tex">m_1 \ddot{\vec{r_1}}+m_2 \ddot{\vec{r_2}}=0</script>
+<br /> Double Integrating<br />
+<script type="math/tex">m_1 \vec{r_1}+m_2\vec {r_2}=ct+d</script></p>
+<p>If we divide by $$m_1+m_2$$ we get $$r_{CM}$$ Since it is a linear function of t we can say that C.O.M. travels in a straight line.</p>
+<p><br />
+Subtracting (3) from (2). We get position vector of first body w.r.t. second body.<br />
+<script type="math/tex">\ddot{\vec{r_{12} }}=\ddot{\vec{r_1}}-\ddot{\vec{r_2}}=-\left(\frac{G}{r_{12}^3}\right)\left(m_2 \vec{r_{12}}-m_1 \vec{r_{21}}\right)</script>
+<br /> Represent <script type="math/tex">\vec{r_{12}}=-\vec{r_{21}}=\vec{r}</script> , <script type="math/tex">|r_{12}|=r</script> and <script type="math/tex">μ=G(m_1+m_2)</script> <br />
+<script type="math/tex">⇒\ddot{\vec{r}}+\frac{μ}{r^3}  \vec{r}=0</script></p>
+<hr />
+
+<p><br /><br />
+Take cross product with <script type="math/tex">\vec{r}</script> .
+<br /> Gives
+<br /> <script type="math/tex">\ddot{\vec{r}}\times{\vec{r}}=0</script>
+<br /> Also <script type="math/tex">\frac{d}{dr}\left(\dot{\vec{r}}×\vec{r}\right)=\ddot{\vec{r}}\times\vec{r}</script> .
+<br /> Therefore Angular momentum per unit mass is constant i.e. <script type="math/tex">\dot{\vec{r}}\times\vec{r}=h</script> 
+<br /> Where <script type="math/tex">h</script> is a constant. Also Motion is planar since orbital plane is fixed. Polar coordinates can be used.
+<br /> Some Points
+<br /> <script type="math/tex">\vec{r}={r} \hat{r}</script>
+<script type="math/tex">\dot{\vec{r}}=\dot{r}\hat{r}+{r}\dot{\hat{r}}</script>
+<script type="math/tex">\dot{\hat{r}}=\dot{θ}\hat{θ}</script> <script type="math/tex">\dot{\hat{θ}}=-\dot{θ}\hat{r}</script>
+<br /> This gives
+<script type="math/tex">\dot{\vec{r}}=\dot{r}\hat{r}+{r}\dot{\theta}\hat{θ}</script>
+<br /> <script type="math/tex">\ddot{\vec{r}}=\left(\ddot{r}-r\dot{θ}^2 \right)\hat{r}+\left(2\dot{r}\dot{θ}+r\ddot{θ}\right) \hat{θ}</script>
+<br /> Now putting in above derived equation
+<br /><script type="math/tex">\ddot{\vec{r}}+\frac{\mu\hat{r}}{r^2}=0</script>
+<br /> <script type="math/tex">\ddot{\vec{r}}=-\left(\frac{\mu}{r^2}\right)\hat{r}</script>
+<br /> <script type="math/tex">\left(\ddot{r}-r\dot{θ}^2 \right)\hat{r}+\left(2\dot{r}\dot{θ}+r\ddot{θ}\right)\hat{θ}=-\left(\frac{\mu}{r^2}\right)\hat{r}</script>
+<br /> Comparing
+<br /> <script type="math/tex">\ddot{r}-r\dot{θ}^2 =-\left(\frac{\mu}{r^2}\right)......(4)</script>
+<br /> <script type="math/tex">2\dot{r}\dot{θ}+r\ddot{θ}=0......(5)</script>
+<br /> in (5), Multiply both sides by <script type="math/tex">r</script>
+<br /><script type="math/tex">2r\dot{r}\dot{θ}+r^2\ddot{θ}=0</script>
+<br /><script type="math/tex">\frac{d(r^2\dot{\theta})}{dt}=0</script>
+<br /><script type="math/tex">r^2\dot{\theta}=h</script>
+<br /><script type="math/tex">h</script> is same constant that we got earlier. Just writing it in different way.<br />
+Now for (4)<br />
+Substitute <script type="math/tex">r=1/u</script>
+<br /> <script type="math/tex">\dot{r}=\frac{-1}{u^2}\cdot\dot{\theta}\left(\frac{du}{d\theta}\right)</script>
+<br /> <script type="math/tex">\dot{r}=-r^2\dot{\theta}\left(\frac{du}{d\theta}\right)</script>
+<br /> from earlier <script type="math/tex">r^2\dot{\theta}=h</script>
+<br /> <script type="math/tex">\dot{r}=-h\left(\frac{du}{d\theta}\right)</script>
+<br /> <script type="math/tex">\Rightarrow\ddot{r}=-h\dot{\theta}\left(\frac{d^2u}{d{\theta}^2}\right)</script>
+<br /> Now (4) becomes
+<br /> <script type="math/tex">h\dot{\theta}\left(\frac{d^2u}{d{\theta}^2}\right)-\frac^2}{u}=-\mu u^2</script>
+<br /> Simplyfying and using <script type="math/tex">\dot{\theta}=u^2h</script>. We get
+<br /> <script type="math/tex">\frac{d^2u}{d\theta^2}+u=\frac{\mu}{h^2}</script>
+<br /> Solving This gives
+<br /> <script type="math/tex">u=\frac{\mu}{h^2}\left(1+cos(\theta-\overline{\omega})\right)</script>
+<br /> <script type="math/tex">\Rightarrow r=\frac{\frac{h^2}{\mu}}{1+cos(\theta-\overline{\omega})}</script>
+<br /> <script type="math/tex">\Rightarrow r=\frac{p}{1+{e}\cdot cos(\theta-{\omega})}=\frac{p}{1+{e}\cdot cos f}</script>
+<br /> Here <script type="math/tex">e</script> is eccentricity, <script type="math/tex">f</script> is true anamoly or angle measured from major axis from closest distance of approach (Pericentre).
+<br /> <script type="math/tex">p=\frac{h^2}{\mu}</script>, 
+<br /> <script type="math/tex">p</script> represents Semi-Latus Rectum of the orbit. 
+<br /> Centre is position of sun/star.
+<br /><center>======================image=======================</center><br /></p>
+<p> Planets have elliptical orbits because all other paths lead planets to be thrown away.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Eccentricity</th>
+      <th style="text-align: center">Shape</th>
+      <th style="text-align: right">Semi-Latus Rectum</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">0</td>
+      <td style="text-align: center">Circle</td>
+      <td style="text-align: right"><script type="math/tex">\frac{h^2}{\mu}</script></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><script type="math/tex">0\lt e\lt 1</script></td>
+      <td style="text-align: center">Ellipse</td>
+      <td style="text-align: right"><script type="math/tex">a(1-e^2)</script></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><script type="math/tex">0\lt e\lt 1</script></td>
+      <td style="text-align: center">Parabola</td>
+      <td style="text-align: right"><script type="math/tex">2q</script></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><script type="math/tex">e\gt 1</script></td>
+      <td style="text-align: center">Hyperbola</td>
+      <td style="text-align: right"><script type="math/tex">a(e^2-1)</script></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tfoot>
+</table>
+
+<h3> Energy Relations determining orbit</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td><script type="math/tex">T.E. \gt 0</script></td>
+      <td>   Hyperbola</td>
+      <td>   Unbound &gt;</td>
+    </tr>
+    <tr>
+      <td><script type="math/tex">T.E. = 0</script></td>
+      <td>   Parabola</td>
+      <td>   Unbound</td>
+    </tr>
+    <tr>
+      <td><script type="math/tex">T.E. \lt 0</script></td>
+      <td>   Circle/Ellipse</td>
+      <td>   Bound</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3>Analysis for Ellipse</h3>
+<p><script type="math/tex">r_p=a(1-e)</script><script type="math/tex">r_a=a(1+e)</script></p>
+<h4>Parametric Equation</h4>
+<p><script type="math/tex">r=\frac{a(1-e^2)}{1+e\cdot \cos{f}}</script><script type="math/tex">x=r\cos{f}</script><script type="math/tex">y=r\sin{f}</script>
+<br /> Area of ellipse 
+<script type="math/tex">% <![CDATA[
+A=\pi ab$ &amp $\frac{d}{dt}(A)=\frac{1}{2}h %]]></script>. if <script type="math/tex">T</script> is orbital period.
+<br /> <script type="math/tex">\Rightarrow \frac{\pi ab}{T}=\frac{1}{2}h</script>
+<br /> Also
+<br /> <script type="math/tex">a(1-e^2)=\frac{h^2}{\mu}</script><script type="math/tex">h^2=a\mu(1-e^2)</script>
+<br /> From above equations. We get
+<br /> <script type="math/tex">\frac{4\pi^2a^2b^2}{T^2}=a\mu (1-e^2)</script><script type="math/tex">\Rightarrow T^2=\left(\frac{4\pi^2}{\mu}\right)a^3</script>
+<br /> This proves Kepler’s 3<sup>rd</sup> Law in elliptical orbit and hence can be extended to other orbital shapes.
+<br /> Let <script type="math/tex">m_s</script> and <script type="math/tex">m_p</script> denote mass of sun and planet respectively.<script type="math/tex">T^2=\left(\frac{4\pi^2}{G(m_s+m_p)}\right)a^3</script> 
+<br /> Also $m_s+m_p\approx m_s$. So for mass of sun.
+<br /> <script type="math/tex">\Rightarrow m_s\approx \frac{4\pi^2a^3}{GT^2}</script></p>
+<hr />
+
+<p><br /> Starting again with our earlier derived equation
+<br /> <script type="math/tex">\ddot{\vec{r}}+\frac{μ}{r^3}  \vec{r}=0</script> Take dot product with <script type="math/tex">\dot{\vec{r}}</script>
+<br /> <script type="math/tex">\ddot{\vec{r}}\cdot\dot{\vec{r}}+\frac{\mu\vec{r}\cdot\dot{\vec{r}}}{r^3}=0</script>
+<br /> Substituting <script type="math/tex">\vec{r}={r} \hat{r}$ and $\dot{\vec{r}}=\dot{r}\hat{r}+{r}\dot{\theta}\hat{θ}</script>
+<br /> <script type="math/tex">\ddot{\vec{r}}\cdot\dot{\vec{r}}+\frac{\mu\left({r} \hat{r}\right)\cdot\left(\dot{r}\hat{r}+{r}\dot{\theta}\hat{θ}\right)}{r^3}=0</script>
+<br /> <script type="math/tex">\ddot{\vec{r}}\cdot\dot{\vec{r}}+\frac{\mu\dot{r}}{r^2}=0</script>  This v can be written as
+<br /> <script type="math/tex">\frac{d}{dt}\left(\frac{1}{2}|\dot{\vec{r}}|^2-\frac{\mu}{r}\right)=0</script>
+<br /> <center>Now $$\dot{\vec{r}}=v$$ </center>
+<br /> <script type="math/tex">\frac{d}{dt}\left(\frac{v^2}{2}-\frac{\mu}{r}\right)=0</script>
+<br /> <script type="math/tex">\Rightarrow \frac{v^2}{2}-\frac{\mu}{r}=c</script></p>
+<center> Total Energy is constant </center>
+<hr />
+
+<p>Now finding that constant
+<br /> We know $h$ (Angular Momentum) and Energy are constant at apicentre and pericentre
+<br /><script type="math/tex">\Rightarrow h=r_av_a=r_pv_p</script>. This gives <script type="math/tex">v_p=\frac{r_a}{r_p} v_a</script>
+<br /> <script type="math/tex">\frac{v_a^2}{2}-\frac{\mu}{r_a}=\frac{v_p^2}{2}-\frac{\mu}{r_p}</script><center> Energy Conservation</center>
+<br /> <script type="math/tex">\frac{v_a^2}{2}\left(\frac{r_a^2}{r_p^2}-1\right)=\mu\left(\frac{1}{r_p}-\frac{1}{r_a}\right)</script>
+<br /> <script type="math/tex">\frac{v_a^2}{2}=\frac{\mu}{r_p+r_a}\left(\frac{r_p}{r_a}\right)</script></p>
+<center>Now $$2a=r_p+r_a$$</center>
+<p><script type="math/tex">\frac{v_a^2}{2}=\frac{\mu}{2a}\left(\frac{2a-r_a}{r_a}\right)=\frac{\mu}{r_a}\left(1-\frac{r_a}{2a}\right)</script>
+<br /> <script type="math/tex">Total\space Energy = \frac{v_a^2}{2}+\frac{\mu}{r_a}=\frac{\mu}{2a}</script></p>
+<h4>Velocity in elliptical orbit</h4>
+<p><script type="math/tex">\frac{v^2}{2}+\frac{\mu}{r}=\frac{\mu}{2a}</script>
+<br /> <script type="math/tex">v^2=\mu\left(\frac{2}{r}-\frac{1}{a}\right)</script>
+<br /> <script type="math/tex">v=\sqrt{\mu\left(\frac{2}{r}-\frac{1}{a}\right)}</script>
+<br /> Mean motion <script type="math/tex">(n)=\frac{2\pi}{T}</script>. We get
+<br /> <script type="math/tex">\mu=a^3n^2</script>. Putting this value we get
+<br /> <script type="math/tex">v_p=na\sqrt{\frac{1+e}{1-e}}</script>
+<br /> <script type="math/tex">v_a=na\sqrt{\frac{1-e}{1+e}}</script></p>
+<h4>Energy for Ellipse</h4>
+<p><script type="math/tex">T.E.=-\frac{\mu}{2a}</script></p>
+<h4>Energy for Parabola</h4>
+<p><script type="math/tex">T.E.=0</script></p>
+<h4>Energy for Hyperbola</h4>
+<p><script type="math/tex">T.E.=\frac{\mu}{2a}</script></p>
+<hr />
+<hr />
+
+<center><h1>3 - Body Problem</h1></center>
+<p>Analysis of 3 Body problem is not very simple due to addition of various variables due to 3<sup>rd</sup> body.<br />
+3 body problem can’t be solved completely.</p>
+<h2> Restricted 3 Body problem</h2>
+<p>Let one of the masses is infinitesimal small. <script type="math/tex">m_3\approx 0</script><br />
+Now we have to solve equations only for <script type="math/tex">m_3</script>. Because for <script type="math/tex">m_1</script> &amp; <script type="math/tex">m_2</script>, it is like 2 body problem
+<br /> <script type="math/tex">m_3\ddot{\vec{r_3}}=-\frac{Gm_1m_3\vec{r_{31}}}{r_{31}^3}-\frac{Gm_2m_3\vec{r_{32}}}{r_{32}^3}</script>
+<br /> <script type="math/tex">\ddot{\vec{r_3}}=-\frac{Gm_1\vec{r_{31}}}{r_{31}^3}-\frac{Gm_2\vec{r_{32}}}{r_{32}^3}</script>
+<br /> Using Cartesian Coordinates
+<br /> <script type="math/tex">\ddot{x}=-\frac{Gm_1(x-x_1)}{\sqrt{(x-x_1)^2+(y-y_1)^2+(z-z_1)^2}}</script>
+<br /> <script type="math/tex">\ddot{y}=-\frac{Gm_1(y-y_1)}{\sqrt{(x-x_1)^2+(y-y_1)^2+(z-z_1)^2}}</script>
+<br /> <script type="math/tex">\ddot{z}=-\frac{Gm_1(z-z_1)}{\sqrt{(x-x_1)^2+(y-y_1)^2+(z-z_1)^2}}</script></p>
+<hr />
+<h2> Circular Restricted 3 body problem</h2>
+<p>Suppose that the first two masses, <script type="math/tex">m_1</script> and <script type="math/tex">m_2</script>, execute circular orbits about their common center of mass.</p>
+<center><a href="http://farside.ph.utexas.edu/teaching/336k/Newtonhtml/img2483.png"><img src="http://farside.ph.utexas.edu/teaching/336k/Newtonhtml/img2483.png" /></a></center>
+
+<p>Let us define a Cartesian coordinate system  <script type="math/tex">(\xi,\,\eta,\,\zeta)</script> in an inertial reference frame whose origin coincides with the center of mass, <script type="math/tex">C</script>, of the two orbiting masses. Let the orbital plane of these masses coincide with the <script type="math/tex">\xi$-$\eta</script> plane, and let them both lie on the <script type="math/tex">\xi</script>-axis at time <script type="math/tex">t=0</script>–see Figure. Suppose that <script type="math/tex">R</script> is the constant distance between the two orbiting masses, <script type="math/tex">r_1</script> the constant distance between mass <script type="math/tex">m_1</script> and the origin, and <script type="math/tex">r_2</script> the constant distance between mass <script type="math/tex">m_2</script> and the origin. Moreover, let <script type="math/tex">\omega</script> be the constant orbital angular velocity.</p>
+
+<p><script type="math/tex">% <![CDATA[
+\begin{pmatrix}x\\y\\z\\\end{pmatrix}=\begin{pmatrix}\cos{\omega t}&&-\sin{\omega t}&&0\\\sin{\omega t}&&\cos{\omega t}&&0\\0&&0&&1\end{pmatrix}\begin{pmatrix}\xi\\\eta\\\zeta\end{pmatrix} %]]></script>
+<br /> Differentiate it twice put it in cartesian equations of motion of $m_3$. We get
+<br /> <script type="math/tex">\ddot{\xi}-2\omega\eta=\frac{\partial\Bbb{U}}{\partial\xi}\cdots\cdots(7)</script>
+<br /> <script type="math/tex">\ddot{\eta}+2\omega\xi=\frac{\partial\Bbb{U}}{\partial\eta}\cdots\cdots(8)</script>
+<br /> <script type="math/tex">\ddot{\zeta}=\frac{\partial\Bbb{U}}{\partial\zeta}\cdots\cdots(9)</script>
+<br /> <center>$$(7)\times\dot{\xi}+(8)\times\dot{\eta}+(9)\times\dot{\zeta}$$</center>
+<br /> <script type="math/tex">\dot{\xi}\ddot{\xi}+\dot{\eta}\ddot{\eta}+\dot{\zeta}\ddot{\zeta}=\dot{\xi}\frac{\partial\Bbb{U}}{\partial\xi}+\dot{\eta}\frac{\partial\Bbb{U}}{\partial\eta}+\dot{\zeta}\frac{\partial\Bbb{U}}{\partial\zeta}\cdots\cdots(10)</script>
+<br /> if <script type="math/tex">\Bbb{U}=\Bbb{U}(\xi,\,\eta,\,\zeta)</script>
+<br /> <script type="math/tex">\Rightarrow \frac{d\Bbb{U}}{dt}=\frac{\partial\Bbb{U}}{\partial\xi}\cdot\frac{\partial\xi}{\partial t}+\frac{\partial\Bbb{U}}{\partial\eta}\cdot\frac{\partial\eta}{\partial t}+\frac{\partial\Bbb{U}}{\partial\zeta}\cdot\frac{\partial\zeta}{\partial t}</script>
+<br /> It is R.H.S. of <script type="math/tex">(10)</script>. Also
+<br /> <script type="math/tex">\frac{d}{dt}{\dot{\xi}}^2=2\dot{\xi}\ddot{\xi}</script>
+<br /> eqn $(10)$ becomes
+<br /> <script type="math/tex">\frac{1}{2}\frac{d}{dt}({\dot{\xi}}^2+{\dot{\eta}}^2+{\dot{\zeta}}^2)=\frac{d\Bbb{U}}{dt}</script>
+<br /> We know ${\dot{\xi}}^2+{\dot{\eta}}^2+{\dot{\zeta}}^2=v^2$. 
+<br /> By Jacobi Integral <a href="http://farside.ph.utexas.edu/teaching/336k/Newtonhtml/node121.html">(External Link) - For Extra Information</a>
+<br /> <script type="math/tex">v^2=2\Bbb{U}-C</script>
+<br /> For <script type="math/tex">v^2\ge 0$, $2\Bbb{U}\ge C</script>. This gives 
+<br /> <script type="math/tex">\Bbb{U}=\frac{\omega^2}{2}(\xi^2+\eta^2)+\frac{\mu_1}{r_1}+\frac{\mu_2}{r_2}</script>
+<br /> If I term is large
+<br /> <script type="math/tex">\xi^2+\eta^2\ge \frac{2C}{\omega^2}</script>
+<br /> Path would be enclosing <script type="math/tex">m_1</script> and <script type="math/tex">m_2</script>. On changing <script type="math/tex">C</script> we get different Lagrangian Points</p>
+<hr />
+<hr />
+
+<center><h2> LAGRANGIAN POINTS </h2></center>
+<center> <a href="https://en.wikipedia.org/wiki/Lagrangian_point">Wikipedia Article</a></center>
+<p>In celestial mechanics, the Lagrangian points; also Lagrange points, L-points, or libration points) are positions in an orbital configuration of two large bodies where a small object affected only by gravity can maintain a <b>stable position</b> relative to the two large bodies. The Lagrange points mark positions where the combined gravitational pull of the two large masses provides precisely the centripetal force required to orbit with them. There are five such points, labeled L1 to L5, all in the orbital plane of the two large bodies. The first three are on the line connecting the two large bodies and the last two, L4 and L5, each form an equilateral triangle with the two large bodies. The two latter points are stable, which implies that objects can orbit around them in a rotating coordinate system tied to the two large bodies.L1, L2, L3 are unstable</p>
+<center><a href="http://spaceguard.rm.iasf.cnr.it/NScience/neo/images/ast-lagr-points.gif"><img src="http://spaceguard.rm.iasf.cnr.it/NScience/neo/images/ast-lagr-points.gif" /></a></center>
+
+<p>We have considered $$m_2 \ll m_1$$</p>
+<center>
+<figure>
+<img src="/assets/img/resources/langrangian-table.PNG" />
+</figure>
+ </center>
+<hr />
+
+
+                <div class="entry-meta">
+                <br>
+<hr>
+<span class="entry-tags"></span>
+<!--
+<span class="social-share">
+    <a href="https://www.facebook.com/sharer/sharer.php?u=/celestial-mechanics/" title="Share on Facebook" class="tag">
+        <span class="term"><i class="fa fa-facebook-square"></i> Like</span>
+    </a>
+    <a href="https://twitter.com/intent/tweet?text=/celestial-mechanics/" title="Share on Twitter" class="tag">
+        <span class="term"><i class="fa fa-twitter-square"></i> Tweet</span>
+    </a>
+    <a href="https://plus.google.com/share?url=/celestial-mechanics/" title="Share on Google+" class="tag">
+            <span class="term"><i class="fa fa-google-plus-square"></i> +1</span>
+    </a>
+</span> --> 
+<div style="clear:both"></div>
+
+                </div>
+            </div>
+        </div>
+        
+    </header>
+        <!-- JS -->
+    <script src="/assets/js/jquery-1.12.0.min.js"></script>
+    <script src="/assets/js/jquery.dlmenu.min.js"></script>
+    <script src="/assets/js/jquery.goup.min.js"></script>
+    <script src="/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="/assets/js/jquery.fitvid.min.js"></script>
+    <script src="/assets/js/scripts.js"></script>
+    
+    
+
+    
+    <!-- MathJax -->
+    <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+</body>
+</html>

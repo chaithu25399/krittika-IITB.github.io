@@ -1,0 +1,22 @@
+# Site navigation links
+
+- title: Projects
+  url: /projects/
+- title: Resources
+  url: /resources/
+- title: Group Discussions
+  url: /GDs
+- title: Team
+  url: /team
+- title: Trips
+  url: /trips
+- title: Contact Us
+  url: /contact
+- title: Workshops
+  url: /workshops
+- title: Photos
+  url: /photos
+- title: VR Zone
+  url: /VR
+- title: Lectures
+  url: /lectures

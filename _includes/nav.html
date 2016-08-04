@@ -1,0 +1,37 @@
+	<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+		<button class="dl-trigger">Open Menu</button>
+		<ul class="dl-menu">
+			<li><a href="{{ site.url }}/">Home</a></li>
+			<li>
+				<a href="{{site.url}}/vision">Vision</a>
+				
+			</li>
+			<li>
+				<a href="#">Events</a>
+				<ul class="dl-submenu">
+					<li><a href="{{site.url}}/lectures">Lectures</a></li>
+					<li><a href="{{site.url}}/GDs">Group Discussions</a></li>
+					<li><a href="{{site.url}}/trips">Trips</a></li>
+                   
+				</ul>
+			</li>
+			{% for link in site.data.navigation %}
+		    {% if link.url contains 'http' %}
+		        {% assign domain = '' %}
+		        {% else %}
+		        {% assign domain = site.url %}
+		    {% endif %}
+		  {% endfor %}
+	   
+        <li>
+		     <a href="#">Gallery</a>
+		     <ul class="dl-submenu">
+		     <li><a href = "{{site.url}}/photos">Photos</a></li>
+		     <li><a href = "{{site.url}}/VR">VR Zone</a></li>
+		     </ul>
+		</li>
+	   
+		</ul><!-- /.dl-menu -->
+
+      
+	</nav><!-- /.dl-menuwrapper -->
