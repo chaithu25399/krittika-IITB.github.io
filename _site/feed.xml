@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2016-08-03T16:35:57+05:30</updated><id>/</id><title>Krittika</title><subtitle></subtitle><entry><title>Books</title><link href="/books/" rel="alternate" type="text/html" title="Books" /><published>2016-08-03T00:00:00+05:30</published><updated>2016-08-03T00:00:00+05:30</updated><id>/books</id><content type="html" xml:base="/books/">&lt;h3&gt;GENERAL RELATIVITY &amp;amp; COSMOLOGY&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2016-08-05T16:43:13+05:30</updated><id>/</id><title>Krittika</title><subtitle></subtitle><entry><title>History of Mathematical Astronomy</title><link href="/lecture1/" rel="alternate" type="text/html" title="History of Mathematical Astronomy" /><published>2016-08-05T00:00:00+05:30</published><updated>2016-08-05T00:00:00+05:30</updated><id>/lecture1</id><content type="html" xml:base="/lecture1/">&lt;p&gt;This marks the beginning of the semester for us.&lt;/p&gt;</content><category term="Krittika" /><summary>A mathematical introduction to Astronomy</summary></entry><entry><title>Books</title><link href="/books/" rel="alternate" type="text/html" title="Books" /><published>2016-08-03T00:00:00+05:30</published><updated>2016-08-03T00:00:00+05:30</updated><id>/books</id><content type="html" xml:base="/books/">&lt;h3&gt;GENERAL RELATIVITY &amp;amp; COSMOLOGY&lt;/h3&gt;
 &lt;p&gt;for Undergraduates Professor John W. Norbury&lt;/p&gt;
 
 &lt;p&gt;This book written by Professor John Norbury explains general relativity and concepts of cosmology in a clear way and focuses on introducing these subjects at an undergraduate level.
@@ -45,8 +45,8 @@ tion is paid to the important interplay between ground-based investigations and 
 
 &lt;figure class=&quot;half&quot;&gt;
 &lt;center&gt;
-&lt;img src=&quot;/assets/img/trips/Nehru-Planetarium.jpg&quot; /&gt;
-&lt;img src=&quot;/assets/img/trips/sky-theater.jpg&quot; /&gt;
+&lt;img src=&quot;/assets/img/Trips/Nehru-Planetarium.jpg&quot; /&gt;
+&lt;img src=&quot;/assets/img/Trips/sky-theater.jpg&quot; /&gt;
 &lt;/center&gt;
 &lt;/figure&gt;</content><category term="trips" /></entry><entry><title>GMRT</title><link href="/GMRT/" rel="alternate" type="text/html" title="GMRT" /><published>2016-07-01T00:00:00+05:30</published><updated>2016-07-01T00:00:00+05:30</updated><id>/GMRT</id><content type="html" xml:base="/GMRT/">&lt;p&gt;Giant Meter Wave Radio Telescope, Pune, set up by  National Centre for Radio Astrophysics, an affiliate of the Tata Institute of Fundamental Research (TIFR),is one of the most sensitive telescopes in the world (within its range), the GMRT has an effective diameter of 25 kilometres and is made of 30 smaller dish antennas.
 Operating in the low radio frequencies, it has been extensively used by radio astronomers to study different objects in the Milky Way and also the content, structure and nature of gases in external galaxies.
@@ -305,103 +305,4 @@ Now we have to solve equations only for &lt;script type=&quot;math/tex&quot;&gt;
 &lt;img src=&quot;/assets/img/resources/langrangian-table.PNG&quot; /&gt;
 &lt;/figure&gt;
  &lt;/center&gt;
-&lt;hr /&gt;</content><category term="Resources" /><summary>Fundamentals of celestial mechanics disscussing 2 and 3 body problem and langrangian points</summary></entry><entry><title>Extraterrestrial Life</title><link href="/Extraterrestrial_Life/" rel="alternate" type="text/html" title="Extraterrestrial Life" /><published>2016-06-27T00:00:00+05:30</published><updated>2016-06-27T00:00:00+05:30</updated><id>/Extraterrestrial_Life</id><content type="html" xml:base="/Extraterrestrial_Life/"></content><category term="GDs" /><summary>Coming Soon..</summary></entry><entry><title>Celestial Co-ordinate Systems</title><link href="/Co-ordinate-Systems/" rel="alternate" type="text/html" title="Celestial Co-ordinate Systems" /><published>2016-06-27T00:00:00+05:30</published><updated>2016-06-27T00:00:00+05:30</updated><id>/Co-ordinate Systems</id><content type="html" xml:base="/Co-ordinate-Systems/"></content><category term="GDs" /><summary>Coming Soon</summary></entry><entry><title>Basics of Astronomy</title><link href="/Basics/" rel="alternate" type="text/html" title="Basics of Astronomy" /><published>2016-06-27T00:00:00+05:30</published><updated>2016-06-27T00:00:00+05:30</updated><id>/Basics</id><content type="html" xml:base="/Basics/">&lt;p&gt;&lt;b&gt; Astronomy:&lt;/b&gt; - Astronomy is the science of measuring the positions and characteristics of heavenly bodies or you can say it is mainly depends on observation&lt;br /&gt;
-&lt;b&gt; Astrophysics:&lt;/b&gt; - Astophysics mainly consists of theorotical part or you can say astrophysics is the application of physics to understand astronomy.&lt;br /&gt;
-&lt;b&gt; Cosmogony:&lt;/b&gt; - It is the branch of science that deals with the origin of the universe, especially the solar system.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;center&gt;&lt;h2&gt; Units Used in Astronomy&lt;/h2&gt;&lt;/center&gt;
-&lt;h3&gt;1. Distance&lt;/h3&gt;
-&lt;p&gt;&lt;b&gt; a) Astronomical Unit (AU)&lt;/b&gt;
-&lt;br /&gt;     The distance between earth and sun is taken as 1 AU. It is convenient to express distance between planets and sun in AU
-&lt;br /&gt;     \(1 \,AU=1.496\times10^{11}\, m\)
-&lt;br /&gt;&lt;br /&gt;
-&lt;b&gt; a) Lightyear (ly)&lt;/b&gt;
-&lt;br /&gt;     The distance travelled by light in one year is called 1 ly.
-&lt;br /&gt;     \(1 \,ly=9.461\times10^{15}\, m\)
-&lt;br /&gt;&lt;br /&gt;
-&lt;b&gt; a) Parsec (pc)&lt;/b&gt;
-&lt;br /&gt;     It is the distance at which an arc 1 AU subtends an angle of 1”. It is convenient to express distance of stars from earth by parallax metod.
-&lt;br /&gt;     \(1\,pc=3.086\times10^{16}\, m\) [distance\,in\,parsecs =\frac{1}{\theta(in “) made\,to\,earth’s\,orbital\,radius}]
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3&gt;2. Mass&lt;/h3&gt;
-&lt;p&gt;For planets we use jupiter’s mass which is equal to \(1.899\times10^{27}\,kg\). Mass of stars is expressed in Solar mass which is equal to \(1.98\times10^{30}\,kg\)
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3&gt;3. Constants&lt;/h3&gt;
-&lt;p&gt;a) \(G=6.673\times10^{-11} \,Nm^{2}kg^{-2}\)&lt;br /&gt;
-b) \(c=299,792,458\,ms^{-1}\approx3\times10^8\,ms^{-1}\)&lt;br /&gt;
-c) Solar Luminosity\(\,=3.828 \times 10^{26} \,W\)
-&lt;br /&gt;d) Solar Constant \(=1370\,Wm^{-2}\)&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;h2&gt; Observing Planet&lt;/h2&gt;&lt;/center&gt;
-&lt;h3&gt;Transit&lt;/h3&gt;
-&lt;p&gt;Planet moving over solar disk. It happens only for Mercury and Venus&lt;br /&gt;&lt;/p&gt;
-&lt;h3&gt;Occulation&lt;/h3&gt;
-&lt;p&gt;Moon/Planets Eclipsing distant object is known as occulation&lt;br /&gt;&lt;/p&gt;
-&lt;h3&gt;Retrograde Motion&lt;/h3&gt;
-&lt;p&gt;Planet appears moving in opposite direction&lt;br /&gt;&lt;/p&gt;
-&lt;h3&gt; Other Terms&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Positional_astronomy.svg/2000px-Positional_astronomy.svg.png&quot;&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Positional_astronomy.svg/2000px-Positional_astronomy.svg.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;b&gt;Inferior Planet&lt;/b&gt; - Has an orbit that is closer than the Earth-Sun distance. (Mercury and Venus)
-&lt;br /&gt;&lt;br /&gt;
-&lt;b&gt;Superior Planet&lt;/b&gt; - Has an orbit that is farther than the Earth-Sun distance. (Mars, Jupiter, Saturn, Uranus, Neptune)
-&lt;br /&gt;&lt;br /&gt;
-&lt;b&gt;Opposition&lt;/b&gt; - A planetary position in which the Sun, the Earth and a superior planet are aligned in that order and in a straight line.
-This is also the best time to observe a planet because:
-&lt;br /&gt;    • it is at its closest approach to Earth.
-&lt;br /&gt;    • the planet rises just as the Sun is setting, allowing observation any time during the night.
-&lt;br /&gt;&lt;br /&gt;
-&lt;b&gt;Quadrature&lt;/b&gt; - A planetary position in which the Sun, the Earth and a superior planet form a right angle with the Earth at the vertex.&lt;br /&gt;
-At sunset during eastern quadrature, a superior planet is overhead and is overhead at sunrise during western quadrature.
-&lt;br /&gt;&lt;br /&gt;
-&lt;b&gt;Conjunction&lt;/b&gt; - A planetary position in which the Earth, the Sun and the planet are aligned in that order and in a straight line.&lt;br /&gt;
-For an inferior planet this is called a superior conjunction.&lt;br /&gt;
-When the order is the Earth, the inferior planet and the Sun, it is an inferior conjunction.&lt;br /&gt;
-A conjunction is the worst time to observe a planet because it is lost in the Sun’s brilliance.
-&lt;br /&gt;&lt;br /&gt;
-&lt;b&gt;Greatest Elongation&lt;/b&gt; - Point at which an inferior planet has the greatest visual distance from the Sun. (Mercury 28º   Venus 47º)&lt;br /&gt;
-During Greatest Eastern Elongation an inferior planet is visible at sunset and is visible before sunrise during Greatest Western Elongation.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h3&gt; Retrograde Motion&lt;/h3&gt;
-&lt;p&gt;Retrograde motion is the apparent motion of a planet in a direction opposite to that of other bodies within its system, as observed from a particular vantage point. Direct motion or prograde motion is motion in the same direction as other bodies.&lt;/p&gt;
-&lt;center&gt; &lt;b&gt; Retrograde Motion of Mars &lt;/b&gt;
-&lt;br /&gt;&lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Apparent_retrograde_motion_of_Mars_in_2003.gif/250px-Apparent_retrograde_motion_of_Mars_in_2003.gif&quot;&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Apparent_retrograde_motion_of_Mars_in_2003.gif/250px-Apparent_retrograde_motion_of_Mars_in_2003.gif&quot; /&gt;&lt;/a&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h4&gt; Reason for Apparent Retrograde Motion&lt;/h4&gt;
-&lt;center&gt;&lt;a href=&quot;http://homework.uoregon.edu/pub/class/301/rr1.gif&quot;&gt;&lt;img src=&quot;http://homework.uoregon.edu/pub/class/301/rr1.gif&quot; /&gt;&lt;/a&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;center&gt;&lt;h2&gt; Quantifying Brightness of stars&lt;/h2&gt;&lt;/center&gt;
-&lt;h3&gt;Apparent Magnitude&lt;/h3&gt;
-&lt;p&gt;As it appears from earth
-[m=-2.5\log{\left(\frac{flux_{object}}{flux_{reference}}\right)}]
-[m_1-m_2=-2.5\log{\left(\frac{f_1}{f_2}\right)}]
-&lt;br /&gt;&lt;b&gt;Note:&lt;/b&gt; Magnitude Value increases Brightness of star decreases.
-&lt;br /&gt;Our eyes are limited to a magnitude 6 stars.&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;a href=&quot;http://www.astronomynotes.com/starprop/appmag.gif&quot;&gt;&lt;img src=&quot;http://www.astronomynotes.com/starprop/appmag.gif&quot; /&gt;&lt;/a&gt;&lt;/center&gt;
-&lt;center&gt;&lt;h3&gt;List of 50 brightest stars&lt;/h3&gt;
-&lt;a href=&quot;https://doc-04-10-docs.googleusercontent.com/docs/securesc/kcean16dv49vndcbfjbh2tso553lmbpg/0c34ug2d8ne5lrsk156ha17qbvfhccf6/1469383200000/15062252872031255528/15062252872031255528/0ByLMXYV6_rjNNDN5SFh3dkFHMDg?e=view&amp;amp;nonce=tr03ii8sl1nbu&amp;amp;user=15062252872031255528&amp;amp;hash=tv8bnavqi3htebdru0nnnj9rca1amgu4&quot;&gt;&lt;img src=&quot;https://doc-04-10-docs.googleusercontent.com/docs/securesc/kcean16dv49vndcbfjbh2tso553lmbpg/0c34ug2d8ne5lrsk156ha17qbvfhccf6/1469383200000/15062252872031255528/15062252872031255528/0ByLMXYV6_rjNNDN5SFh3dkFHMDg?e=view&amp;amp;nonce=tr03ii8sl1nbu&amp;amp;user=15062252872031255528&amp;amp;hash=tv8bnavqi3htebdru0nnnj9rca1amgu4&quot; /&gt;&lt;/a&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&amp;lt;h3&amp;gt; Surface Brightness&lt;br /&gt;
-It is magnitude of brightness of extended object
-[s=m+2.5\log{A}][A\rightarrow area\,in\,arcsec^2]
-&lt;br /&gt;&amp;lt;h3&amp;gt;Absolute Magnitude&amp;lt;/h3&amp;gt;
-all stars considered at 10pc [M=m+5-5\log{D}][D\rightarrow distance\,between\,star\,and\,earth]
-for planets distance is considered to be 1 A.U.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;center&gt;&lt;h2&gt;Some other terms&lt;/h2&gt;&lt;/center&gt;
-&lt;p&gt;&lt;b&gt;Never setting stars or Circumpolar stars&lt;/b&gt; These are those stars which never go below horizon&lt;br /&gt;
-&lt;b&gt;Never rising stars&lt;/b&gt; Theses stars never rise&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;figure&gt;&lt;a href=&quot;http://www.imsc.res.in/~indu/JM/2009/JanFeb/Solstice/chap02_files/risefall.gif&quot;&gt;&amp;lt;img src=&quot;http://www.imsc.res.in/~indu/JM/2009/JanFeb/Solstice/chap02_files/risefall.gif&quot;&lt;/a&gt;&lt;/figure&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;a href=&quot;http://www.lcsd.gov.hk/CE/Museum/Space/archive/EducationResource/Universe/framed_e/lecture/ch02/imgs/track.gif&quot;&gt;&lt;img src=&quot;http://www.lcsd.gov.hk/CE/Museum/Space/archive/EducationResource/Universe/framed_e/lecture/ch02/imgs/track.gif&quot; /&gt;&lt;/a&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><category term="Resources" /></entry></feed>
+&lt;hr /&gt;</content><category term="Resources" /><summary>Fundamentals of celestial mechanics disscussing 2 and 3 body problem and langrangian points</summary></entry><entry><title>Extraterrestrial Life</title><link href="/Extraterrestrial_Life/" rel="alternate" type="text/html" title="Extraterrestrial Life" /><published>2016-06-27T00:00:00+05:30</published><updated>2016-06-27T00:00:00+05:30</updated><id>/Extraterrestrial_Life</id><content type="html" xml:base="/Extraterrestrial_Life/"></content><category term="GDs" /><summary>Coming Soon..</summary></entry><entry><title>Celestial Co-ordinate Systems</title><link href="/Co-ordinate-Systems/" rel="alternate" type="text/html" title="Celestial Co-ordinate Systems" /><published>2016-06-27T00:00:00+05:30</published><updated>2016-06-27T00:00:00+05:30</updated><id>/Co-ordinate Systems</id><content type="html" xml:base="/Co-ordinate-Systems/"></content><category term="GDs" /><summary>Coming Soon</summary></entry></feed>
