@@ -4,8 +4,8 @@ bio:                'The Astronomy Club of IIT Bombay'
 description:        ""
 reading_time:       false
 words_per_minute:   200
-logo:               'assets/img/krittika-logo.png'
-background:         'assets/img/background.jpg'
+logo:               '{{site.url}}/assets/img/krittika-logo.png'
+background:         '{{site.url}}/assets/img/background.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 
