@@ -48,7 +48,7 @@ gems:
   - jekyll-gist
 
 jekyll-mentions:
-      baseurl: /krittika-club
+      baseurl: /krittika
       url: https://stab-iitb.org/krittika
 
 
