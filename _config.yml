@@ -24,9 +24,6 @@ mathjax:            true
 sass:
   sass_dir:         _sass
   style:            compressed
-tools:
-  standards:      "HTML, SCSS, Jekyll"
-  software:       "git"
 # Comments
 #disqus_shortname:   taylantatli
 
