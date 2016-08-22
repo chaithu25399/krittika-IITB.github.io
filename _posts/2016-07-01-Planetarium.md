@@ -15,8 +15,8 @@ category: trips
 
  <figure class="half">
 <center>
-<img src="/assets/img/Trips/Nehru-Planetarium.jpg">
-<img src="/assets/img/Trips/sky-theater.jpg">
+<img src="{{ site.baseurl }}/assets/img/Trips/Nehru-Planetarium.jpg">
+<img src="{{ site.baseurl }}/assets/img/Trips/sky-theater.jpg">
 </center>
 </figure>
 

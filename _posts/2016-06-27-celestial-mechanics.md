@@ -217,7 +217,7 @@ $$\begin{pmatrix}x\\y\\z\\\end{pmatrix}=\begin{pmatrix}\cos{\omega t}&&-\sin{\om
 <p>We have considered $$m_2 \ll m_1$$</p>
 <center>
 <figure>
-<img src="/assets/img/resources/langrangian-table.PNG">
+<img src="{{ site.baseurl }}/assets/img/resources/langrangian-table.PNG">
 </figure>
  </center>
 <hr>
