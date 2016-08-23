@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Nehru Planetarium"
-date: 2016-07-01
+date: 2016-08-24
 excerpt: ""
 
 tags:
@@ -19,7 +19,7 @@ category: trips
 <img src="{{ site.baseurl }}/assets/img/Trips/sky-theater.jpg">
 </center>
 </figure>
-This year we are scheduling the trip on 17th september, the weekend after midsems. Below is the registration form for the same.
+This year we are scheduling the trip on 17th september, the weekend after midsems. Below is the registration form for the same. Seats are limited, hurry up! 
 <center>
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd8DSJ1fnyGzzrC2bhR8EU7sPpE04E5U_WDHXHwFcOdk8sQ8g/viewform?embedded=true" width="680" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
